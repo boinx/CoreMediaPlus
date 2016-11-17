@@ -1,18 +1,18 @@
 
-#import <CoreMediaPlus/CMPAtoms.h>
-#import <CoreMediaPlus/CMPAtoms+Iterate.h>
+#import "CMPAtoms.h"
+#import "CMPAtoms+Iterate.h"
 
-#import <CoreMediaPlus/CMAudioFormatDescription+CMPExtradata.h>
+#import "CMAudioFormatDescription+CMPExtradata.h"
 
-#import <CoreMediaPlus/CMBlockBuffer+CMPData.h>
-#import <CoreMediaPlus/CMPBlockBuffer+Image.h>
-#import <CoreMediaPlus/CMPBlockBuffer+Text.h>
+#import "CMBlockBuffer+CMPData.h"
+#import "CMPBlockBuffer+Image.h"
+#import "CMPBlockBuffer+Text.h"
 
-#import <CoreMediaPlus/CMPFormatDescription+Text.h>
+#import "CMPFormatDescription+Text.h"
 
-#import <CoreMediaPlus/CMPSampleBuffer+Text.h>
-#import <CoreMediaPlus/CMPSampleBuffer+Image.h>
+#import "CMPSampleBuffer+Text.h"
+#import "CMPSampleBuffer+Image.h"
 
-#import <CoreMediaPlus/CMSampleBuffer+CMPDependsOnOthers.h>
+#import "CMSampleBuffer+CMPDependsOnOthers.h"
 
-#import <CoreMediaPlus/CMVideoFormatDescription+CMPExtradata.h>
+#import "CMVideoFormatDescription+CMPExtradata.h"
