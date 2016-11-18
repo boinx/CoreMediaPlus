@@ -16,6 +16,8 @@
 		500C2598189A8E4E0062DB0E /* CMPSampleBuffer+Text.c in Sources */ = {isa = PBXBuildFile; fileRef = 500C2590189A8E4E0062DB0E /* CMPSampleBuffer+Text.c */; };
 		503BBD4919E26DC2002219B6 /* CMVideoFormatDescription+CMPExtradata.c in Sources */ = {isa = PBXBuildFile; fileRef = 503BBD4719E26DC2002219B6 /* CMVideoFormatDescription+CMPExtradata.c */; };
 		509D918C18DF636900FC9A7A /* CMPAudioFormatDescription+Extradata.c in Sources */ = {isa = PBXBuildFile; fileRef = 509D918A18DF636900FC9A7A /* CMPAudioFormatDescription+Extradata.c */; };
+		B6C1957C1DDE215300242E57 /* CMSampleBuffer+CMPDependsOnOthers.c in Sources */ = {isa = PBXBuildFile; fileRef = B6C1957A1DDE215300242E57 /* CMSampleBuffer+CMPDependsOnOthers.c */; };
+		B6C1957F1DDE219100242E57 /* CMBlockBuffer+CMPData.c in Sources */ = {isa = PBXBuildFile; fileRef = B6C1957D1DDE219100242E57 /* CMBlockBuffer+CMPData.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,10 @@
 		503BBD7C19E281E4002219B6 /* CMPErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPErrors.h; sourceTree = "<group>"; };
 		509D918A18DF636900FC9A7A /* CMPAudioFormatDescription+Extradata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "CMPAudioFormatDescription+Extradata.c"; sourceTree = "<group>"; };
 		509D918B18DF636900FC9A7A /* CMPAudioFormatDescription+Extradata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMPAudioFormatDescription+Extradata.h"; sourceTree = "<group>"; };
+		B6C1957A1DDE215300242E57 /* CMSampleBuffer+CMPDependsOnOthers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "CMSampleBuffer+CMPDependsOnOthers.c"; sourceTree = "<group>"; };
+		B6C1957B1DDE215300242E57 /* CMSampleBuffer+CMPDependsOnOthers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMSampleBuffer+CMPDependsOnOthers.h"; sourceTree = "<group>"; };
+		B6C1957D1DDE219100242E57 /* CMBlockBuffer+CMPData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "CMBlockBuffer+CMPData.c"; sourceTree = "<group>"; };
+		B6C1957E1DDE219100242E57 /* CMBlockBuffer+CMPData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMBlockBuffer+CMPData.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -87,6 +93,8 @@
 				500C2586189A8E4E0062DB0E /* CMPAtoms+Iterate.c */,
 				509D918B18DF636900FC9A7A /* CMPAudioFormatDescription+Extradata.h */,
 				509D918A18DF636900FC9A7A /* CMPAudioFormatDescription+Extradata.c */,
+				B6C1957E1DDE219100242E57 /* CMBlockBuffer+CMPData.h */,
+				B6C1957D1DDE219100242E57 /* CMBlockBuffer+CMPData.c */,
 				500C2589189A8E4E0062DB0E /* CMPBlockBuffer+Image.h */,
 				500C2588189A8E4E0062DB0E /* CMPBlockBuffer+Image.c */,
 				500C258B189A8E4E0062DB0E /* CMPBlockBuffer+Text.h */,
@@ -94,6 +102,8 @@
 				503BBD7C19E281E4002219B6 /* CMPErrors.h */,
 				500C258D189A8E4E0062DB0E /* CMPFormatDescription+Text.h */,
 				500C258C189A8E4E0062DB0E /* CMPFormatDescription+Text.c */,
+				B6C1957B1DDE215300242E57 /* CMSampleBuffer+CMPDependsOnOthers.h */,
+				B6C1957A1DDE215300242E57 /* CMSampleBuffer+CMPDependsOnOthers.c */,
 				500C258F189A8E4E0062DB0E /* CMPSampleBuffer+Image.h */,
 				500C258E189A8E4E0062DB0E /* CMPSampleBuffer+Image.c */,
 				500C2591189A8E4E0062DB0E /* CMPSampleBuffer+Text.h */,
@@ -155,8 +165,10 @@
 			files = (
 				500C2593189A8E4E0062DB0E /* CMPAtoms+Iterate.c in Sources */,
 				500C2596189A8E4E0062DB0E /* CMPFormatDescription+Text.c in Sources */,
+				B6C1957C1DDE215300242E57 /* CMSampleBuffer+CMPDependsOnOthers.c in Sources */,
 				500C2592189A8E4E0062DB0E /* CMPAtoms.c in Sources */,
 				500C2598189A8E4E0062DB0E /* CMPSampleBuffer+Text.c in Sources */,
+				B6C1957F1DDE219100242E57 /* CMBlockBuffer+CMPData.c in Sources */,
 				500C2594189A8E4E0062DB0E /* CMPBlockBuffer+Image.c in Sources */,
 				500C2597189A8E4E0062DB0E /* CMPSampleBuffer+Image.c in Sources */,
 				509D918C18DF636900FC9A7A /* CMPAudioFormatDescription+Extradata.c in Sources */,
