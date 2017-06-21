@@ -46,7 +46,7 @@ CFDictionaryRef CMPTextFormatExtensionsDictionaryCreate(CFAllocatorRef allocator
 	const SInt8 value1 = 1;
 	CFNumberRef number1 = CFNumberCreate(allocator, kCFNumberSInt8Type, &value1);
 	
-	const SInt8 value255 = 255;
+	const SInt8 value255 = (SInt8)255;
 	CFNumberRef number255 = CFNumberCreate(allocator, kCFNumberSInt8Type, &value255);
 	
 	// background color
