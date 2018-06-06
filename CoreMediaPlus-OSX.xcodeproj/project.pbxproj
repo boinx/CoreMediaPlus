@@ -232,7 +232,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = McZonk;
+				ORGANIZATIONNAME = "Boinx Software Ltd.";
 				TargetAttributes = {
 					503BBD3619E264F0002219B6 = {
 						CreatedOnToolsVersion = 6.1;
